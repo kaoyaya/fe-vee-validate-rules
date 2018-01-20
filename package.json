@@ -1,0 +1,24 @@
+{
+  "name": "vee-validate-rules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "vee-validate": "2.0.3",
+    "vue": "2.5.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltinyho/vee-validate-rules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ltinyho/vee-validate-rules/issues"
+  },
+  "homepage": "https://github.com/ltinyho/vee-validate-rules#readme"
+}
