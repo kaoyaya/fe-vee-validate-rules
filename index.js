@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VeeValidate, { Validator } from 'vee-validate';
 import zh_CN from 'vee-validate/dist/locale/zh_CN';
 import regexs from './rules';
+
 const dict = {
   name: 'zh_CN',
   custom: {
@@ -11,13 +12,24 @@ const dict = {
     mobileCode: {
       required: '请填写验证码'
     },
+    qq: {
+      required: '请输入qq号码'
+    },
+    username: {
+      required: '请输入用户名',
+    },
+    password: {
+      required: '请输入密码'
+    },
+
   },
   messages: {},
   attributes: {
     mobile: '手机号码',
     password: '密码',
-    username: '账号名',
-    mobileCode: '手机验证码'
+    username: '用户名',
+    mobileCode: '验证码',
+    qq: '请输入qq号码',
   }
 };
 
@@ -35,6 +47,11 @@ const rules = [
     msg: '请填写正确的手机号码',
   },
   {
+    name: 'mobileCode',
+    regex: regexs.mobileCode,
+    msg: '请输入6位验证码'
+  },
+  {
     name: 'username',
     regex: regexs.username,
     msg: '请输入正确的用户名，以字母开头，6~16字符，比如：kyy123',
@@ -43,6 +60,11 @@ const rules = [
     name: 'nickname',
     regex: regexs.nickname,
     msg: '请输入正确的呢称(2-15字符，中英文、数字和下划线)'
+  },
+  {
+    name: 'qq',
+    regex: regexs.qq,
+    msg: '请输入正确的QQ号码'
   },
   {
     name: 'password',

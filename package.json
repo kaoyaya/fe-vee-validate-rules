@@ -1,6 +1,6 @@
 {
   "name": "vee-validate-rules",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -20,5 +20,4 @@
   "bugs": {
     "url": "https://github.com/ltinyho/vee-validate-rules/issues"
   },
-  "homepage": "https://github.com/ltinyho/vee-validate-rules#readme"
 }
