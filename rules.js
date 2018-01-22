@@ -7,7 +7,7 @@
  */
 
 const regexs ={
-  mobile:/^1[3|4|5|7|8][0-9]{9}$/,
+  mobile:/^1[3-9][0-9]{9}$/,
   username:/^[a-zA-Z][a-zA-Z0-9_-]{5,15}$/,
   nickname:/^[(\u4e00-\u9fa5)0-9a-zA-Z\_\s@]+$/,
   password:/^[a-zA-Z]+\w{5,17}$/,
