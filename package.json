@@ -1,6 +1,6 @@
 {
-  "name": "vee-validate-rules",
-  "version": "1.0.2",
+  "name": "@kaoyaya/fe-eolinker-api-generator",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -13,11 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ltinyho/vee-validate-rules.git"
+    "url": "git+https://github.com/kaoyaya/fe-vee-validate-rules.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ltinyho/vee-validate-rules/issues"
+    "url": "https://github.com/kaoyaya/fe-vee-validate-rules/issues"
   }
 }
