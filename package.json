@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "vee-validate": "2.0.3",
-    "vue": "2.5.13"
+    "vue": "3.0.0"
   },
   "devDependencies": {},
   "scripts": {
